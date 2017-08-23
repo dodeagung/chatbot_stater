@@ -1,0 +1,35 @@
+{
+  "name": "seulgi",
+  "version": "2.1.0",
+  "description": "Seulgi Chat Bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server.js --presets es2015,stage-2"
+  },
+  "keywords": [
+    "Intent",
+    "Classifier"
+  ],
+  "author": "Agastya Darma Laksana",
+  "license": "MIT",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.17.2",
+    "config": "^1.26.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "fb-messenger": "^1.1.0",
+    "franc": "^3.1.1",
+    "natural": "^0.5.4",
+    "python-shell": "^0.4.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
